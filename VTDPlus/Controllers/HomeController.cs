@@ -12,6 +12,7 @@ namespace VTDPlus.Controllers
         public ActionResult Index()
         {
 
+
             return View();
         }
     }

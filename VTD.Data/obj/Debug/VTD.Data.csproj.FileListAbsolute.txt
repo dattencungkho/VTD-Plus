@@ -1,0 +1,10 @@
+E:\VTD-Plus2\VTD.Data\bin\Debug\VTD.Data.dll.config
+E:\VTD-Plus2\VTD.Data\bin\Debug\VTD.Data.dll
+E:\VTD-Plus2\VTD.Data\bin\Debug\VTD.Data.pdb
+E:\VTD-Plus2\VTD.Data\bin\Debug\EntityFramework.dll
+E:\VTD-Plus2\VTD.Data\bin\Debug\EntityFramework.SqlServer.dll
+E:\VTD-Plus2\VTD.Data\bin\Debug\EntityFramework.xml
+E:\VTD-Plus2\VTD.Data\bin\Debug\EntityFramework.SqlServer.xml
+E:\VTD-Plus2\VTD.Data\obj\Debug\VTD.Data.csprojResolveAssemblyReference.cache
+E:\VTD-Plus2\VTD.Data\obj\Debug\VTD.Data.dll
+E:\VTD-Plus2\VTD.Data\obj\Debug\VTD.Data.pdb
