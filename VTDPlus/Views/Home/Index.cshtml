@@ -1,0 +1,236 @@
+﻿
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .dropbtn {
+        background-color: white;
+        color: #858585;
+        margin-top: 20px;
+        border: none;
+        height: 35px;
+    }
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 150px;
+        box-shadow: 5px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+            .dropdown-content a:hover {
+                background-color: #f58f8f;
+            }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+        background-color: #f58f8f;
+    }
+
+    .haha {
+        background-color: white;
+    }
+
+        .haha > li {
+            float: left;
+            min-width: 150px;
+        }
+
+            .haha > li > a {
+                color: black;
+            }
+
+        .haha li {
+            position: relative;
+        }
+
+            .haha li a {
+                padding: 10px;
+                line-height: 20px;
+                display: inline-block;
+            }
+
+        .haha .sub-menu {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 100%;
+            width: 150px;
+            background-color: white;
+            padding: 5px 20px;
+            margin-left: 150px;
+        }
+
+        .haha li:hover > .sub-menu {
+            display: block;
+        }
+
+        .haha > li > .sub-menu {
+            top: 0;
+            left: 0;
+        }
+</style>
+<div class="your-class" style="margin:0">
+    <div><img src="~/Content/img/2.jpg" style="width:100%;height:400px" /></div>
+    <div><img src="~/Content/img/1.jpg" style="width:100%;height:400px"></div>
+    <div><img src="~/Content/img/3.jpg" style="width:100%;height:400px" /></div>
+    <div><img src="~/Content/img/1.jpg" style="width:100%;height:400px" /></div>
+    <div><img src="~/Content/img/3.jpg" style="width:100%;height:400px" /></div>
+</div>
+<section class="caption">
+    <h2 class="caption">Find You Dream Home</h2>
+    <h3 class="properties">Appartements - Houses - Mansions</h3>
+</section>
+<div class="form-group">
+    <select name="tinh" class="abc" id="tinh">
+        <option value=”0″>–Chọn tỉnh–</option>
+        <option value="hanoi">Hà Nội</option>
+        <option value="hcm">TP Hồ Chí Minh</option>
+        <option value="saab">An Giang	</option>
+        <option value="fiat">Bà Rịa – Vũng Tàu		</option>
+        <option value="audi">Bạc Liêu	</option>
+        <option value="audi">Bắc Kạn	</option>
+        <option value="audi">Bắc Giang		</option>
+        <option value="audi">Bắc Ninh		</option>
+        <option value="audi">Bình Dương		</option>
+        <option value="audi">Bình Định		</option>
+        <option value="audi">Bình Phước			</option>
+        <option value="audi">Bình Thuận			</option>
+        <option value="audi">Cà Mau		</option>
+        <option value="audi">Cao Bằng			</option>
+        <option value="audi">Cần Thơ		</option>
+        <option value="audi">Đà Nẵng		</option>
+        <option value="audi">Đắk Lắk		</option>
+        <option value="audi">Đắk Nông			</option>
+        <option value="audi">Điện Biên		</option>
+        <option value="audi">Đồng Nai			</option>
+        <option value="audi">Đồng Tháp	</option>
+        <option value="audi">Gia Lai	</option>
+        <option value="audi">Hà Giang		</option>
+        <option value="audi">Hà Nam		</option>
+        <option value="audi">Hà Tĩnh		</option>
+        <option value="audi">Hải Dương			</option>
+        <option value="audi">Hải Phòng		</option>
+        <option value="audi">Hòa Bình			</option>
+        <option value="audi">Hậu Giang	</option>
+        <option value="audi">Hưng Yên			</option>
+        <option value="audi">Khánh Hòa			</option>
+        <option value="audi">Kiên Giang			</option>
+        <option value="audi">Kon Tum			</option>
+        <option value="audi">Lai Châu		</option>
+
+
+
+
+    </select>
+    <span id="shuyen">
+
+        <select name="huyen" id="huyen" class="abc">
+            <option value="0">-Quận/Huyện-</option>
+
+        </select>
+
+
+    </span>
+
+
+
+    <div class="dropdown">
+        <button class="dropbtn">-Category-</button>
+        <div class="dropdown-content">
+            <ul class="haha">
+
+                <li>
+                    <a href="#">Ăn uống</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Buffer</a></li>
+
+                        <li><a href="#">Company</a></li>
+                        <li><a href="#">Couple</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">  Giải trí </a>
+
+                    <ul class="sub-menu">
+                        <li><a href="#">BarCulps</a></li>
+                        <li><a href="#">Messa</a></li>
+
+
+                    </ul>
+
+                <li>
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+    <input class="amt" type="text">
+    <button class="btn success" type="button">Search</button>
+</div>
+<script src="~/Content/js/slick.js"></script>
+<script type="text/javascript">
+	$('.your-class').slick({
+  lazyLoad: 'ondemand',
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: true,
+  autoplaySpeed: 2000,
+
+});
+</script>
+
+<script>
+ $(document).ready(function() {
+
+
+
+  $('#tinh').change(function() {
+
+   giatri = this.value;
+   alert(giatri);
+   if(giatri=='hanoi')
+   {
+       $('#shuyen').load('~/Content/tinh/hanoi.html #quanhuyenhanoi');
+   }
+   else
+   if(giatri=='hcm')
+   {
+       $('#shuyen').load('~/Content/tinh/hanoi.html #quanhuyenhcm');
+   }
+
+  });
+ });
+</script>
+
+
