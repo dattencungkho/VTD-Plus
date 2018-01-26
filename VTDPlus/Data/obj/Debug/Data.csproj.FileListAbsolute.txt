@@ -1,0 +1,5 @@
+E:\VTD-Plus2\VTD-Plus\VTDPlus\Data\bin\Debug\Data.dll
+E:\VTD-Plus2\VTD-Plus\VTDPlus\Data\bin\Debug\Data.pdb
+E:\VTD-Plus2\VTD-Plus\VTDPlus\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+E:\VTD-Plus2\VTD-Plus\VTDPlus\Data\obj\Debug\Data.dll
+E:\VTD-Plus2\VTD-Plus\VTDPlus\Data\obj\Debug\Data.pdb

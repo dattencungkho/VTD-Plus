@@ -44,7 +44,3 @@ E:\VTD-Plus2\VTD-Plus\VTDPlus\bin\System.Web.Mvc.xml
 E:\VTD-Plus2\VTD-Plus\VTDPlus\obj\Debug\VTDPlus.csprojResolveAssemblyReference.cache
 E:\VTD-Plus2\VTD-Plus\VTDPlus\obj\Debug\VTDPlus.dll
 E:\VTD-Plus2\VTD-Plus\VTDPlus\obj\Debug\VTDPlus.pdb
-E:\VTD-Plus2\VTD-Plus\VTDPlus\bin\VTD.Data.dll
-E:\VTD-Plus2\VTD-Plus\VTDPlus\bin\EntityFramework.dll
-E:\VTD-Plus2\VTD-Plus\VTDPlus\bin\VTD.Data.pdb
-E:\VTD-Plus2\VTD-Plus\VTDPlus\bin\EntityFramework.xml
